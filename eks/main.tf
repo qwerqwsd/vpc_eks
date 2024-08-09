@@ -9,7 +9,7 @@ module "eks" {
   subnet_ids = [
     var.pri-sub1-id,
     var.pri-sub2-id
-    # 일단은 변수만 선언을 해두고, 나중에 vpc모듈에서 뽑아낸output값을 넣어줄꺼다
+    # 일단은   변수만 선언을 해두고, 나중에 vpc모듈에서 뽑아낸output값을 넣어줄꺼다
   ]
 
   eks_managed_node_groups = {
